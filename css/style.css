@@ -302,7 +302,7 @@ button {
     padding-bottom: 90px;
 }
 .banner_img {
-    width: 45%;
+    width: 40%;
     margin: 0 auto;
     background-image: url(../imsges/banner-img.png);
     height: auto;
@@ -317,7 +317,7 @@ button {
 
 .banner_taital {
     width: 100%;
-    font-size: 150px;
+    font-size: 100px;
     color: #1c1b1b;
     text-transform: uppercase;
     font-weight: bold;
@@ -479,12 +479,12 @@ button.owl-next {
 }
 
 .image_box {
-    width: 100%;
+    width: 95%;
     background-color: #252525;
     border-radius: 100%;
-    margin: 0 auto;
+    margin: 2px;
     text-align: center;
-    padding: 20% 88px;
+    padding: 20% 85px;
     border: 14px solid #fff;
 }
 
@@ -504,6 +504,14 @@ button.owl-next {
 .about_taital {
     width: 100%;
     font-size: 40px;
+    color: #252525;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.about_para1 {
+    width: 100%;
+    font-size: 20px;
     color: #252525;
     text-transform: uppercase;
     text-align: center;
@@ -529,6 +537,11 @@ button.owl-next {
 .about_img {
     width: 100%;
     text-align: center;
+}
+.about_img5 {
+    width: 100%;
+    text-align: right;
+    border-radius: 0px;
 }
 
 .readmore_bt{
