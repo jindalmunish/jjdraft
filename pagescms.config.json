@@ -1,12 +1,19 @@
 {
-  "content": [
+  "collections": [
     {
-      "label": "Homepage",
-      "path": "content/home.md",
-      "fields": [
-        { "name": "title", "type": "string" },
-        { "name": "tagline", "type": "string" },
-        { "name": "body", "type": "markdown" }
+      "name": "pages",
+      "label": "Pages",
+      "files": [
+        {
+          "label": "Homepage",
+          "name": "home",
+          "file": "content/home.md",
+          "fields": [
+            { "label": "Title", "name": "title", "widget": "string" },
+            { "label": "Tagline", "name": "tagline", "widget": "string" },
+            { "label": "Body", "name": "body", "widget": "markdown" }
+          ]
+        }
       ]
     }
   ]
